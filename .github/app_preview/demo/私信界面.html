@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"> 
+	<title>私信聊天界面设计</title>
+	<link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script language="JavaScript">
+		
+	</script>
+</head>
+<body style="padding-top:60px">
+<div class="container">
+	<div class="row clearfix">
+		<div class="col-md-12">
+			<div class="col-md-2">
+				<ul class="nav nav-pills nav-stacked">
+					<li class="active">
+						 <a href="#panel-573150" data-toggle="tab">$张一山</a>
+					</li>
+					<li>
+						 <a href="#panel-63468" data-toggle="tab">$阿门罗</a>
+					</li>
+					<li class="dropdown pull-right">
+					 <a href="#" data-toggle="dropdown" class="dropdown-toggle">下拉<strong class="caret"></strong></a>
+					<ul class="dropdown-menu">
+						<li>
+							 <a href="#">操作</a>
+						</li>
+						<li>
+							 <a href="#">设置栏目</a>
+						</li>
+						<li>
+							 <a href="#">更多设置</a>
+						</li>
+						<li class="divider"></li>
+						<li>
+							 <a href="#">分割线</a>
+						</li>
+					</ul>
+				</li>
+				</ul>
+			</div>
+			<div class="col-md-10">
+				<div class="panel panel-primary">
+					<div class="panel-heading">
+						<h3 class="panel-title">
+							聊天窗口
+						</h3>
+					</div>
+					<div class="panel-body pre-scrollable" style="max-height:540px">
+						<div class="tab-content">
+							<div class="tab-pane active" id="panel-573150">
+								<!--左边-->
+								<div class="col-md-12">
+									<div class="media well col-md-7">
+										<a href="#" class="pull-left"><img src="./img/头像.jpg" class="media-object" alt='' style"border-radius:50%" width="70"/></a>
+										<div class="media-body">
+											<small class="media-heading pull-right" style="color:gray">
+												2017-9-21 21:25:74
+											</small>
+											<h4 class="media-heading">
+												$对方ID
+											</h4> $回复内容
+										</div>
+									</div>
+								</div>
+								
+								<!--右边-->
+								<div class="col-md-12">
+									<div class="media well col-md-offset-5">
+										<a href="#" class="pull-right"><img src="./img/头像.jpg" class="media-object" alt='' style="border-radius:50%" width="70"/></a>
+										<div class="media-body">
+											<small class="media-heading" style="color:gray">
+												2017-9-21 21:25:74
+											</small>
+											<h4 class="media-heading pull-right">
+												$我的ID
+											</h4>
+											<br/>
+											$回复内容$回复内容$回复内容$回复内容$回复内容$回复内容$回复内容$回复内容$回复内容$回复内容$回复内容$回复内容$回复内容$回复内容$回复内容$回复内容$回复内容
+										</div>
+									</div>
+								</div>
+								<!--左边-->
+								<div class="col-md-12">
+									<div class="media well col-md-7">
+										<a href="#" class="pull-left"><img src="./img/头像.jpg" class="media-object" alt='' style"border-radius:50%" width="70"/></a>
+										<div class="media-body">
+											<small class="media-heading pull-right" style="color:gray">
+												2017-9-21 21:25:74
+											</small>
+											<h4 class="media-heading">
+												$对方ID
+											</h4> $回复内容
+										</div>
+									</div>
+								</div>
+								<!--左边-->
+								<div class="col-md-12">
+									<div class="media well col-md-7">
+										<a href="#" class="pull-left"><img src="./img/头像.jpg" class="media-object" alt='' style"border-radius:50%" width="70"/></a>
+										<div class="media-body">
+											<small class="media-heading pull-right" style="color:gray">
+												2017-9-21 21:25:74
+											</small>
+											<h4 class="media-heading">
+												$对方ID
+											</h4> $回复内容
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tab-pane" id="panel-63468">
+								<p>
+									<!--右边-->
+								<div class="col-md-12">
+									<div class="media well col-md-offset-5">
+										<a href="#" class="pull-right"><img src="./img/头像.jpg" class="media-object" alt='' style="border-radius:50%" width="70"/></a>
+										<div class="media-body">
+											<small class="media-heading" style="color:gray">
+												2017-9-21 21:25:74
+											</small>
+											<h4 class="media-heading pull-right">
+												$我的ID
+											</h4>
+											<br/>
+											$回复内容$回复内容$回复内容$回复内容$回复内容$回复内容$回复内容$回复内容$回复内容$回复内容$回复内容$回复内容$回复内容$回复内容$回复内容$回复内容$回复内容
+										</div>
+									</div>
+								</div>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="panel-footer" style="height:53px">
+						<a href="#modal-message" role="button" class="btn btn-info btn-large col-sm-12" data-toggle="modal">发 送 一 条 新 的 私 信</a>
+						<div class="modal fade" id="modal-message" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+							<div class="modal-dialog" style="top:100px">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+										<h4 class="modal-title" id="myModalLabel" style="font-weight:bold">
+											发送消息
+										</h4>
+									</div>
+									<div class="modal-body">
+										<textarea class="form-control" rows="3" placeholder="请输入留言内容"></textarea>
+										<small class="pull-right" style="color:gray">$0/150 </small>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-default" data-dismiss="modal">关闭</button> <button type="button" class="btn btn-primary">提交</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

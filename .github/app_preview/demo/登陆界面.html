@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"> 
+	<title>注册界面</title>
+	<link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body style="padding-top:100px">
+
+	<div class="container">
+	<div class="row clearfix">
+		<div class="col-md-3 column">
+		</div>
+		<div class="col-md-6 column">
+		<form class="form-horizontal" id="signUpForm">
+                    <div class="form-group">
+                        <label for="inputEmail" class="col-sm-2 control-label">邮箱地址</label>
+                        <div class="col-sm-7">
+                            <input type="email" class="form-control" id="inputEmail" name="inputEmail" title="提供一个稳定的邮箱便于我们联系您"/>
+                        </div>
+                        <div id="checkBar1">
+
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputID" class="col-sm-2 control-label">输入账号</label>
+                        <div class="col-sm-7">
+                            <input type="text" class="form-control" id="inputID" title="账号长度在2到12个字符以内" name="inputID"/>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputPassword" class="col-sm-2 control-label">输入密码</label>
+                        <div class="col-sm-7">
+                            <input type="password" class="form-control" id="inputPassword" name="inputPassword" title="密码长度在6到16个字符以内"/>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputPasswordAgain" class="col-sm-2 control-label">确认密码</label>
+                        <div class="col-sm-7">
+                            <input type="password" class="form-control" id="inputPasswordAgain" name="inputPasswordAgain" title="请确保两次输入了相同的密码"/>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputCaptcha" class="col-sm-2 control-label">验证码</label>
+                        <div class="col-sm-4">
+                            <input type="text" class="form-control" id="inputCaptcha" name="inputCaptcha" title="请输入右侧图片中的字符（区分大小写）"/>
+                        </div>
+                        <img src="ValiCode" onclick="this.src=this.src+'?'+Math.random();" />
+                    </div>
+                    <div class="input-group col-sm-offset-1" style="left: -30px">
+                        <span class="input-group-btn col-sm-offset-1">
+                            <button class="btn btn-default" type="button" id="agreeProtocolBtn" style="font-weight: bold">
+                                同意协议
+                            </button>
+                        </span>
+                        <div>
+                            <input type="text" class="form-control" readonly="readonly" style="text-align:center;color:red;font-weight:bold" id="agreeProtocol" name="agreeProtocol" value="我不同意该协议" title="您需要接受相关协议才能申请本站的相关服务"/>
+                        </div>
+                        <span class="input-group-addon glyphicon glyphicon-remove" id="protocolIcon" style="color:red;top:-1px">
+                            <a href="#" style="font-size:14px;font-weight:bold;">《查看用户协议》</a>
+                        </span>
+                    </div>
+                    <hr style="height:1px;border:none;border-top:1px solid silver;"/><!-- 分割线 -->
+                    <div class="col-sm-offset-1">
+                        <button type="submit" class="btn btn-success col-md-11" ><b style="font-weight:bold">提 交 并 注 册</b></button>
+                    </div>
+                </form>
+		</div>
+		<div class="col-md-3 column">
+		</div>
+	</div>
+</div>
+	
+</body>
+</html>

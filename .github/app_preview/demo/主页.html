@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"> 
+	<title>主页样式</title>
+	<link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<style type="text/css">  
+		.navbar .nav > li > a:hover {
+			color: white;
+			background-color: #282828;
+		}
+		.navbar .nav >li >a:active{
+			color: gray;
+			background-color: #282828;
+		}
+		.navbar .nav >.active >a:hover{
+			color: white;
+			background-color: #282828;
+		}
+		.navbar .nav >.active >a:active{
+			color: red;
+			background-color: #282828;
+		}
+		.tab-content ul li { 
+			margin:0; 
+			padding-top:15px;
+		}
+		.tab-content ul li > a {
+			color: black;
+			text-decoration:none;
+		}
+		.tab-content ul li > a:hover { 
+			color: red; 
+			text-decoration:underline;
+		}
+		.table tbody, .table td {  
+			border: 0px solid #000 !important;  
+		}
+		.tab-content ul li > small{
+			color: gray;
+		}
+	</style>
+</head>
+<body style="padding-top:60px">
+<div class="container">
+	<div class="row clearfix">
+		<div class="col-md-12 column">
+		</div>
+	</div>
+	<div class="row clearfix">
+		<div class="col-md-12 column">
+			<nav class="navbar navbar-default" role="navigation">
+				<div class="navbar-header">
+					 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span>
+					 <span class="icon-bar"></span>
+					 <span class="icon-bar"></span>
+					 <span class="icon-bar"></span>
+				</div>
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li class="active">
+							 <a href="#">
+								<font class="glyphicon glyphicon-home" style="font-weight:bold"><small style="font-size:3px"> </small>主页</font>
+							 </a>
+						</li>
+						<li>
+							 <a href="#">最新资讯</a>
+						</li>
+						<li>
+							 <a href="#">心理知识</a>
+						</li>
+						<li>
+							 <a href="#">培训资料</a>
+						</li>
+						<li>
+							 <a href="#">咨询师一览</a>
+						</li>
+						<li>
+							 <a href="#">常见问题</a>
+						</li>
+						<li class="dropdown">
+							 <a href="#" class="dropdown-toggle" data-toggle="dropdown">其他内容<strong class="caret"></strong></a>
+							<ul class="dropdown-menu">
+								<li>
+									 <a href="#">网站新闻</a>
+								</li>
+								<li>
+									 <a href="#">热门文章</a>
+								</li>
+								<li class="divider">
+								</li>
+								<li>
+									 <a href="#">网站投稿</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+					
+					<ul class="nav navbar-nav navbar-right">
+						<li class="active">
+							 <a href="#">
+								<font class="glyphicon glyphicon-envelope" style="font-weight:bold"><small style="font-size:3px"> </small>合作交流</font>
+							 </a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</div>
+
+	<div class="row clearfix">
+		<div class="col-md-12 column">
+			<div class="carousel slide" id="carousel-452310">
+				<ol class="carousel-indicators">
+					<li data-slide-to="0" data-target="#carousel-452310">
+					</li>
+					<li data-slide-to="1" data-target="#carousel-452310">
+					</li>
+					<li data-slide-to="2" data-target="#carousel-452310" class="active">
+					</li>
+				</ol>
+				<div class="carousel-inner">
+					<div class="item">
+						<img alt="" src="./img/default.jpg" />
+						<div class="carousel-caption">
+							<h4>
+								$展示标题
+							</h4>
+							<p>
+								$说明性文字 物料尺寸1600x500px
+							</p>
+						</div>
+					</div>
+					<div class="item">
+						<img alt="" src="./img/default.jpg" />
+						<div class="carousel-caption">
+							<h4>
+								$展示标题
+							</h4>
+							<p>
+								$说明性文字 物料尺寸1600x500px
+							</p>
+						</div>
+					</div>
+					<div class="item active">
+						<img alt="" src="./img/default.jpg" />
+						<div class="carousel-caption">
+							<h4>
+								$展示标题
+							</h4>
+							<p>
+								$说明性文字 物料尺寸1600x500px
+							</p>
+						</div>
+					</div>
+				</div> <a class="left carousel-control" href="#carousel-452310" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#carousel-452310" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+			</div>
+		</div>
+	</div>
+	<div class="row clearfix">
+		<div class="col-md-12 column">
+		</div>
+	</div>
+	<div class="row clearfix">
+		<div class="col-md-8 column">
+			<div class="page-header">
+				<h2>
+					<font style="font-weight:bold;">最新文章</font><small class="pull-right"><a href="#">更多»</a></small>
+				</h2>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="thumbnail">
+						<img alt="300x200" src="./img/title.jpg" />
+						<div class="caption">
+							<h3>
+								$文章标题
+							</h3>
+							<p>
+								$文章摘要，一般不会超过150个字。物料尺寸600x200px。如果仔细观察一个Form的提交，你就会发现，一旦用户点击“Submit”按钮，表单开始提交，浏览器就会刷新页面，然后在新页面里告诉你操作是成功了还是失败了。如果不幸由于网络太慢或者其他原因，就会得到一个404页面。...
+							</p>
+							<p>
+								 <a class="btn btn-primary" href="#">详情</a><font style="color:gray;font-size:12px" class="pull-right">——<a class="btn" href="#">$作者名</a>09-12</font>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="thumbnail">
+						<img alt="300x200" src="./img/title.jpg" />
+						<div class="caption">
+							<h3>
+								$文章标题
+							</h3>
+							<p>
+								$文章摘要，一般不会超过150个字。物料尺寸600x200px。如果仔细观察一个Form的提交，你就会发现，一旦用户点击“Submit”按钮，表单开始提交，浏览器就会刷新页面，然后在新页面里告诉你操作是成功了还是失败了。如果不幸由于网络太慢或者其他原因，就会得到一个404页面。...
+							</p>
+							<p>
+								 <a class="btn btn-primary" href="#">详情</a><font style="color:gray;font-size:12px" class="pull-right">——<a class="btn" href="#">$作者名</a>09-12</font>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="thumbnail">
+						<img alt="300x200" src="./img/title.jpg" />
+						<div class="caption">
+							<h3>
+								$文章标题
+							</h3>
+							<p>
+								$文章摘要，一般不会超过150个字。物料尺寸600x200px。如果仔细观察一个Form的提交，你就会发现，一旦用户点击“Submit”按钮，表单开始提交，浏览器就会刷新页面，然后在新页面里告诉你操作是成功了还是失败了。如果不幸由于网络太慢或者其他原因，就会得到一个404页面。...
+							</p>
+							<p>
+								<a class="btn btn-primary" href="#">详情</a><font style="color:gray;font-size:12px" class="pull-right">——<a class="btn" href="#">$作者名</a>09-12</font>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4 column">
+			<div class="page-header">
+				<h2 >
+					<font style="font-weight:bold;">最新资讯</font><small class="pull-right"><a href="#">更多»</a></small>
+				</h2>
+			</div>
+			<div class="tabbable" id="tabs-898057">
+				<ul class="nav nav-tabs">
+					<li class="active">
+						 <a href="#materials" data-toggle="tab">培训资料</a>
+					</li>
+					<li>
+						 <a href="#news" data-toggle="tab">网站新闻</a>
+					</li>
+				</ul>
+				<div class="tab-content">
+					<div class="tab-pane active" id="materials">
+						<p>
+							<ul>
+								<li>
+									<a href="#">$这里是文章标题1</a><small class="pull-right">09-12</small>
+								</li>
+								<li>
+									<a href="#">$这里是文章标题2</a><small class="pull-right">09-12</small>
+								</li>
+								<li>
+									<a href="#">$这里是文章标题3</a><small class="pull-right">09-12</small>
+								</li>
+								<li>
+									<a href="#">$这里是文章标题4</a><small class="pull-right">09-12</small>
+								</li>
+								<li>
+									<a href="#">$这里是文章标题5</a><small class="pull-right">09-12</small>
+								</li>
+								<li>
+									<a href="#">$这里是文章标题6</a><small class="pull-right">09-12</small>
+								</li>
+								<li>
+									<a href="#">$这里是文章标题7</a><small class="pull-right">09-12</small>
+								</li>
+								<li>
+									<a href="#">$这里是文章标题8</a><small class="pull-right">09-12</small>
+								</li>
+							</ul>
+							<small><a>更多»</a></small>
+						</p>
+					</div>
+					<div class="tab-pane" id="news">
+						<ul>
+							<li>
+								<a href="#">$这里是文章标题1</a><small class="pull-right">09-12</small>
+							</li>
+							<li>
+								<a href="#">$这里是文章标题2</a><small class="pull-right">09-12</small>
+							</li>
+							<li>
+								<a href="#">$这里是文章标题3</a><small class="pull-right">09-12</small>
+							</li>
+						</ul>
+						<small><a>更多»</a></small>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row clearfix">
+		<div class="col-md-12 column">
+			<div class="page-header">
+				<h2>
+					<font style="font-weight:bold;">咨询师推荐</font><small class="pull-right"><a href="#">更多»</a></small>
+				</h2>
+				
+			</div>
+			<table class="table">
+				<tbody>
+					<tr>
+						<td>
+							<div class="media well">
+								<a href="./导师个人主页.html" class="pull-left" style="text-decoration:none;color:black"><img src="./img/头像.jpg" class="media-object" alt='' style="border-radius:50%" width="50"/>
+								<div class="media-body">
+									<h4 class="media-heading">$李青山</h4><small style="color:gray">$北京大学心理学博士</small></a>
+								</div>
+							</div>
+						</td>
+						<td>
+							<div class="media well">
+								<a href="./导师个人主页.html" class="pull-left" style="text-decoration:none;color:black"><img src="./img/头像.jpg" class="media-object" alt='' style="border-radius:50%" width="50"/>
+								<div class="media-body">
+									<h4 class="media-heading">$物料尺寸2x4</h4><small style="color:gray">$清华大学心理学博士</small></a>
+								</div>
+							</div>
+						</td>
+						<td>
+							<div class="media well">
+								<a href="./导师个人主页.html" class="pull-left" style="text-decoration:none;color:black"><img src="./img/头像.jpg" class="media-object" alt='' style="border-radius:50%" width="50"/>
+								<div class="media-body">
+									<h4 class="media-heading">$咨询师姓名</h4><small style="color:gray">$中山大学心理学博士</small></a>
+								</div>
+							</div>
+						</td>
+						<td>
+							<div class="media well">
+								<a href="#" class="pull-left"><img src="./img/头像.jpg" class="media-object" alt='' style="border-radius:50%" width="50"/></a>
+								<div class="media-body">
+									<h4 class="media-heading">$咨询师姓名</h4><small>$简介或专业资历</small>
+								</div>
+							</div>
+						</td>
+					</tr>
+				</tbody>
+				<tbody>
+					<tr>
+						<td>
+							<div class="media well">
+								<a href="#" class="pull-left"><img src="./img/头像.jpg" class="media-object" alt='' style="border-radius:50%" width="50"/></a>
+								<div class="media-body">
+									<h4 class="media-heading">$咨询师姓名</h4><small>$简介或专业资历</small>
+								</div>
+							</div>
+						</td>
+						<td>
+							<div class="media well">
+								<a href="#" class="pull-left"><img src="./img/头像.jpg" class="media-object" alt='' style="border-radius:50%" width="50"/></a>
+								<div class="media-body">
+									<h4 class="media-heading">$咨询师姓名</h4><small>$简介或专业资历</small>
+								</div>
+							</div>
+						</td>
+						<td>
+							<div class="media well">
+								<a href="#" class="pull-left"><img src="./img/头像.jpg" class="media-object" alt='' style="border-radius:50%" width="50"/></a>
+								<div class="media-body">
+									<h4 class="media-heading">$咨询师姓名</h4><small>$简介或专业资历</small>
+								</div>
+							</div>
+						</td>
+						<td>
+							<div class="media well">
+								<a href="#" class="pull-left"><img src="./img/头像.jpg" class="media-object" alt='' style="border-radius:50%" width="50"/></a>
+								<div class="media-body">
+									<h4 class="media-heading">咨询师姓名</h4><small>$简介或专业资历</small>
+								</div>
+							</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+	<hr></hr>
+	<div class="row clearfix">
+		<div class="col-md-12 column">
+		<h2><font style="font-weight:bold;">尾部信息栏</font></h2>
+			<p>
+				$说点啥吧~
+			</p>
+			<p>
+				 <a class="btn" href="#">查看详情 »</a>
+			</p>
+		</div>
+	</div>
+</div>
+</body>
+</html>
